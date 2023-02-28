@@ -7,16 +7,15 @@
  *  - isMarried: bertipe data boolean, dengan bebas Anda tentukan.
  */
 
- let firstName = 'rizki'
- let lastName = 'auliasa'
- let age = 22
- let isMarried = false
- 
- /**
-  * Jangan hapus kode di bawah ini
-  */
- 
- module.exports = {
-   firstName, lastName, age, isMarried,
- };
- 
+let firstName = 'rizki'
+let lastName = 'auliasa'
+let age = 22
+let isMarried = false
+
+/**
+ * Jangan hapus kode di bawah ini
+ */
+
+module.exports = {
+  firstName, lastName, age, isMarried,
+};
