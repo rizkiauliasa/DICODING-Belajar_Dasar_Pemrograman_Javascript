@@ -26,17 +26,17 @@
 
 // TODO
 const restaurant = {
-    name: "aul",
-    city: "ska",
-    "favorite drink": "water",
-    "favorite food": "chicken",
-    isVegan: false
-    };
-  
-  const name = restaurant.name;
-  const favoriteDrink = restaurant["favorite drink"];
-  
-  /**
-   * Jangan hapus kode di bawah ini
-   */
-  module.exports = { restaurant, name, favoriteDrink };
+  name: "aul",
+  city: "ska",
+  "favorite drink": "water",
+  "favorite food": "chicken",
+  isVegan: false
+};
+
+const name = restaurant.name;
+const favoriteDrink = restaurant["favorite drink"];
+
+/**
+ * Jangan hapus kode di bawah ini
+ */
+module.exports = { restaurant, name, favoriteDrink };
