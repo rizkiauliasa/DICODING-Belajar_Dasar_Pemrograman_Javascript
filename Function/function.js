@@ -23,22 +23,21 @@
 
 // TODO
 function minimal(a, b) {
-    if (a<=b) {
-      return a;
-      } else {
-        return b;
-        }
+  if (a <= b) {
+    return a;
+  } else {
+    return b;
   }
-  
-  const power = (a, b) => a**b;
-  /*function power(a,b) {
-    return a*b;
-    }
-    */
-  
-  /**
-   * Jangan hapus kode di bawah ini
-   */
-  
-  module.exports = { minimal, power };
-  
+}
+
+const power = (a, b) => a ** b;
+/*function power(a,b) {
+  return a*b;
+  }
+  */
+
+/**
+ * Jangan hapus kode di bawah ini
+ */
+
+module.exports = { minimal, power };
